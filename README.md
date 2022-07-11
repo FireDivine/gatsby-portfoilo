@@ -1,4 +1,4 @@
-###gatsby Portfoilo
+### Gatsby Portfoilo
 made with starter 
 now on heroku
 [https://gatsby-portfoilo.herokuapp.com/]

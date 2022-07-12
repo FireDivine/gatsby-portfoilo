@@ -1,25 +1,76 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,700&family=Poppins:wght@200;800&family=Rock+Salt&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,700&family=Poppins:wght@200;800&family=Rock+Salt&display=swap");
 /* font-family: 'Josefin Slab', serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Rock Salt', cursive; */
 
-*{
+* {
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   /* font-family: "Montserrat"; */
   color: white;
 }
-html,body{
+html,
+body {
   min-height: 100%;
 }
-body{
-  background: radial-gradient(at top left, rgb(43, 131, 225) 0%, rgb(65, 9, 107) 100%);
-  background-repeat: no-repeat;
+body {
+  /* background: radial-gradient(at top left, rgb(43, 131, 225) 0%, rgb(65, 9, 107) 100%); */
+  /* background-repeat: no-repeat; */
+  background-image: linear-gradient(
+      108deg,
+      rgba(62, 62, 62, 0.09) 0%,
+      rgba(62, 62, 62, 0.09) 30%,
+      rgba(234, 234, 234, 0.09) 30%,
+      rgba(234, 234, 234, 0.09) 100%
+    ),
+    linear-gradient(
+      116deg,
+      rgba(101, 101, 101, 0.06) 0%,
+      rgba(101, 101, 101, 0.06) 51%,
+      rgba(231, 231, 231, 0.06) 51%,
+      rgba(231, 231, 231, 0.06) 100%
+    ),
+    linear-gradient(
+      258deg,
+      rgba(103, 103, 103, 0.07) 0%,
+      rgba(103, 103, 103, 0.07) 1%,
+      rgba(209, 209, 209, 0.07) 1%,
+      rgba(209, 209, 209, 0.07) 100%
+    ),
+    linear-gradient(
+      43deg,
+      rgba(17, 17, 17, 0.09) 0%,
+      rgba(17, 17, 17, 0.09) 7%,
+      rgba(159, 159, 159, 0.09) 7%,
+      rgba(159, 159, 159, 0.09) 100%
+    ),
+    linear-gradient(
+      63deg,
+      rgba(211, 211, 211, 0.1) 0%,
+      rgba(211, 211, 211, 0.1) 94%,
+      rgba(233, 233, 233, 0.1) 94%,
+      rgba(233, 233, 233, 0.1) 100%
+    ),
+    linear-gradient(
+      207deg,
+      rgba(179, 179, 179, 0.1) 0%,
+      rgba(179, 179, 179, 0.1) 57%,
+      rgba(11, 11, 11, 0.1) 57%,
+      rgba(11, 11, 11, 0.1) 100%
+    ),
+    linear-gradient(
+      25deg,
+      rgba(118, 118, 118, 0.07) 0%,
+      rgba(118, 118, 118, 0.07) 98%,
+      rgba(248, 248, 248, 0.07) 98%,
+      rgba(248, 248, 248, 0.07) 100%
+    ),
+    linear-gradient(90deg, hsl(337, 90%, 49%), hsl(337, 90%, 49%));
 }
-p{
+p {
   margin: 16px auto;
   line-height: 1.5em;
 }
@@ -46,8 +97,16 @@ nav a {
 nav a:hover {
   border-color: white;
 }
-footer p{
+footer p {
   text-align: center;
   color: #bbb;
   margin: 40px auto;
+}
+/* nav h1{
+  color: grey;
+} */
+ul{
+  list-style-type: none;
+  padding: 10px;
+  
 }

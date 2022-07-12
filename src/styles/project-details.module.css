@@ -1,8 +1,10 @@
 .details h2 {
+  font-family: 'Rock Salt', cursive;
   font-size: 3.5em;
   margin-top: 80px;
 }
 .details h3 {
+  font-family: 'Josefin Slab', serif;
   font-size: 2em;
   font-weight: 400;
   margin-bottom: 40px;

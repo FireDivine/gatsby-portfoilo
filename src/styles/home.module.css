@@ -7,8 +7,10 @@
 .header h2 {
   font-family: 'Rock Salt', cursive;
   font-size: 4em;
+  text-shadow: 4px 4px black;
 }
 .header h3 {
+  font-family: 'Josefin Slab', serif;
   font-size: 3em;
   font-weight: 400;
   margin-bottom: 20px;
